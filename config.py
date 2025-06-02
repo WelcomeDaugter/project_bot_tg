@@ -1,0 +1,3 @@
+class Config:
+    API_NINJAS_KEY = 'E5oZ9ih8VBWP9Xm8FKXLww==5jx6Y4HZQnmYnaMV'
+    COIN_GECKO_API_KEY = "CG-R4hTwuxW48W54DReC9eVLwEx"
