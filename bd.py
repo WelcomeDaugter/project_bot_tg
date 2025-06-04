@@ -16,14 +16,7 @@ def get_db_connection():
 def init_db():
     with get_db_connection() as conn:
         cursor = conn.cursor()
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS users (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                user_id INTEGER UNIQUE,
-                username TEXT NOT NULL,
-                password TEXT NOT NULL
-            )
-        ''')
+        cursor.execute('''CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER UNIQUE, username TEXT NOT NULL, password TEXT NOT NULL)''')
         conn.commit()
 
 async def is_registered(user_id: int) -> bool:
