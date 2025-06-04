@@ -45,7 +45,7 @@
 
 1. Клонирование репозитория 
 
-```git clone https://github.com/GordonFon/Project_multihelper_bot [Название папки куда клонируете]```
+```git clone https://github.com/WelcomeDaugter/project_bot_tg [Название папки куда клонируете]```
 
 2. Переход в вашу директорию, если вы не в ней
 
